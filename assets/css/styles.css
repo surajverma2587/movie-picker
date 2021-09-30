@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #4d4d4d;
+  color: #fff;
+}
+
+.movies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem 10rem;
+}
+
+.movie-card {
+  text-align: center;
+}
+
+.show-results {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.btn {
+  padding: 20px;
+}
+
+.movies-list {
+  list-style: none;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.movies-list li {
+  padding: 24px;
+}
